@@ -1,0 +1,49 @@
+cpu = "znver5"
+gc_threads = 1
+julia = "1.12.7"
+os = "NT"
+threads = 1
+
+[timings.MarkerMap_pairs]
+samples = [0.0806392, 0.0806269, 0.0812228, 0.0806144, 0.0807385]
+seconds = 0.0806392
+
+[timings.MarkerMap_patterns]
+samples = [0.0173695, 0.0181692, 0.0180627, 0.01772, 0.0176169]
+seconds = 0.01772
+
+[timings.check_cascade_edge1]
+samples = [0.0803187, 0.0681778, 0.066722, 0.0663881, 0.0671804]
+seconds = 0.0671804
+
+[timings.check_cascade_edge2]
+samples = [0.3221405, 0.1724644, 0.3128372, 0.1663584, 0.3107065]
+seconds = 0.3107065
+
+[timings.check_finite_order]
+samples = [1.0856189, 1.0916202, 1.0890934, 1.0876609, 1.1622507]
+seconds = 1.0890934
+
+[timings.check_inclusion]
+samples = [0.0466442, 0.046306, 0.043187, 0.0432093, 0.0437763]
+seconds = 0.0437763
+
+[timings.check_involution]
+samples = [1.0843395, 1.1172105, 1.187922, 1.098628, 1.1241823]
+seconds = 1.1172105
+
+[timings.check_mixing]
+samples = [0.0131282, 0.013833, 0.0137617, 0.0138652, 0.013207]
+seconds = 0.0137617
+
+[timings.cylinder_pairs]
+samples = [0.0129263, 0.0116768, 0.014634, 0.0114135, 0.0114268]
+seconds = 0.0116768
+
+[timings.fixed_shift]
+samples = [0.0059582, 0.0054894, 0.005409, 0.0055408, 0.0054832]
+seconds = 0.0054894
+
+[timings.periodic_counts]
+samples = [5.5150861, 5.372394, 5.1613568, 5.4989867, 5.3765767]
+seconds = 5.3765767

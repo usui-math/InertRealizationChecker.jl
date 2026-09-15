@@ -1,0 +1,2 @@
+using InertRealizingChecker
+exit(main())

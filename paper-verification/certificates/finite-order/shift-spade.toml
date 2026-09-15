@@ -1,0 +1,5 @@
+window = 29
+status = "true"
+order = 4
+reson = "finite_order_found"
+checked_through = 4

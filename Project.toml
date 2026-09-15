@@ -1,0 +1,15 @@
+name = "InertRealizingChecker"
+uuid = "3fa29d83-69ca-4f35-8acb-c3e3e674435f"
+version = "0.1.0"
+
+[deps]
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

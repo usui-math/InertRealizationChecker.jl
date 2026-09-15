@@ -1,0 +1,5 @@
+[child]
+patterns = ["0*10", "10*111"]
+
+[parent]
+patterns = ["0*10"]
