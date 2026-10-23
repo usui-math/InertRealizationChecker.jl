@@ -1,2 +1,2 @@
 [shift]
-patterns = ["0*10"]
+patterns = ["0*10", "10*1110"]
